@@ -64,6 +64,6 @@ while(sse_change>epsilon):
     sse_change=abs(sse_prev-sse(m,b,x,y))
     print("sse change " + str(sse_change))
     iteration+=1
-    if (iteration==130):
+    if (iteration==100):
         sse_change=0
     
